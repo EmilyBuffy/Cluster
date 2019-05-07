@@ -127,3 +127,13 @@ plt.ylim(y_min, y_max)
 plt.xticks(())
 plt.yticks(())
 plt.show()
+
+"""
+n_digits: 10,    n_samples 1797,         n_features 64
+__________________________________________________________________________________
+init            time    inertia homo    compl   v-meas  ARI     AMI     silhouette
+k-means++       1.29s   69432   0.602   0.650   0.625   0.465   0.598   0.146
+random          0.98s   69694   0.669   0.710   0.689   0.553   0.666   0.147
+PCA-based       0.18s   70804   0.671   0.698   0.684   0.561   0.668   0.118
+我的电脑跑出来的时间比官网上的长
+"""
