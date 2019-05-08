@@ -87,3 +87,14 @@ if __name__ == "__main__":
      point = standar_scaler(point)
      db = DBScan(point, labelsTrue)
      db.draw()
+    
+    
+"""
+results
+Estimated number of clusters: 4
+Homogeneity: 0.928
+Completeness: 0.862
+V-measure: 0.894
+Adjusted Rand Index: 0.928
+Adjusted Mutual Information: 0.862
+Silhouette Coefficient: 0.584"""
